@@ -1,14 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Junior Flores</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.ico" rel="icon">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1>Hola Mundo</h1>
-    <script src="index.js"></script>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">DevFolio</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Skills</a></li>
+          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <li class="dropdown"><a href="#"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://github.com/devjuniorflores/Data_Analysis">Data Analysis</a></li>
+              <li><a href="https://github.com/devjuniorflores/Data_Engineering">Data Engineering</a></li>
+              <li><a href="https://github.com/devjuniorflores/Data_Science">Data Science</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Banner Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/banner-principal.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="hero-title mb-4">Junior Flores</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Data Scientist, Developer, Data Engineer"></span></p>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Banner Section -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Nombre: </span> <span>Junior Flores Melgar</span></p>
+                        <p><span class="title-s">Perfil: </span> <span>Data Scientist</span></p>
+                        <p><span class="title-s">Email: </span> <span>flores.junior.2111@gmail.com</span></p>
+                        <p><span class="title-s">Telefono: </span> <span>(+51) 999999999</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skills</p>
+                    <span>HTML</span> <span class="pull-right">70%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Python</span> <span class="pull-right">85%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Java</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>SQL</span> <span class="pull-right">80%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Acerca de mí
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      Estudiante de la carrera de Ciencia de Datos e Inteligencia 
+                      Artificial del Servicio Nacional de Adiestramiento en el Trabajo 
+                      Industrial; actualmente me encuentro en el segundo semestre de mi
+                      carrera profesional, la cual tiene una duracion de 4 años.
+                    </p>
+                    <p class="lead">
+                      Me apasiona la tecnologia y como esta puede transformar realidades,
+                      me encanta desarrollar programas y/o algoritmos que puedan facilitar
+                      y mejorar la vida de las personas, en consecuencia lograr un impacto en sus vidas.
+                    </p>
+                    <p class="lead">
+                      He participado en programas como ONE(Oracle Next Education) organizado
+                      por Oracle en conjunto con Alura, actualmente soy participante del 
+                      programa IBM-Students Advocate que busca difunfir las nuevas tecnologías en
+                      nuestros centros educativos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Lo Que Hago
+              </h3>
+              <p class="subtitle-a">
+                Brindo la mayor calidad de trabajo en los proyectos que realizo.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Diseño Web</h2>
+                <p class="s-description text-center">
+                  El diseño web es un área enfocada en el desarrollo de interfaces digitales, 
+                  como el diseño de sitios y aplicaciones en la web utilizadas para intercambiar información.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Ingeniería de Datos</h2>
+                <p class="s-description text-center">
+                  La Ingeniería de Datos es una rama de las ciencias de la computación, 
+                  que se ocupa del análisis de datos en grandes cantidades (Big Data).                 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Análisis de Datos</h2>
+                <p class="s-description text-center">
+                  Realizo analisis estadisticos de alto valor para cualquier rubro de empresa que quiera mejorar
+                  sus decisiones en base a datos que se puedan recolectar.
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counter Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-check"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1.5" class="counter purecounter"></p>
+                <span class="counter-text">TRABAJOS COMPLETADOS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1.5" class="counter purecounter"></p>
+                <span class="counter-text">CURSOS COMPLETADOS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-people"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1.5" class="counter purecounter"></p>
+                <span class="counter-text">TOTAL DE PRESENTACIONES</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-award"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1.5" class="counter purecounter"></p>
+                <span class="counter-text">HABILIDADES OBTENIDAS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Counter Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Portafolio
+              </h3>
+              <p class="subtitle-a">
+                Aquí encontrarás los proyectos en los cuales vengo trabajando.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://github.com/devjuniorflores/Data_Analysis" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Data Analysis</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Data Analysis</span> / <span class="w-date">18 Nov. 2020</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/devjuniorflores/Data_Analysis"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://github.com/devjuniorflores/Data_Engineering" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Data Engineer</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Data Engineer</span> / <span class="w-date">25 Dec. 2021</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/devjuniorflores/Data_Engineering"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://github.com/devjuniorflores/Data_Science" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Data Science</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Data Science</span> / <span class="w-date">01 Sep. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/devjuniorflores/Data_Science"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+              
+          
+        </div> -->
+          </div>
+        </div>
+      </div>
+    </div><!-- End Testimonials Section -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Blog
+              </h3>
+              <p class="subtitle-a">
+                Aquí mi blog personal donde encontraras temas de interes tecnológico.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="./blog/blog-data-analysis.html"><img src="assets/img/post-1.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Data</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="./blog/blog-data-analysis.html">Big Data</a></h3>
+                <p class="card-description">
+                  Los datos se han convertido en el motor que impulsa la mayoría de las actividades actuales, sin importar si 
+                  se encuentran en los campos de la salud, la tecnología, la educación, la investigación o el comercio minorista,
+                  esto ya forma parte de nosotros.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="./blog/blog-data-analysis.html">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Junior Flores</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="./blog/blog-data-engineer.html"><img src="assets/img/post-2.png" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">IA</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="./blog/blog-data-engineer.html">Inteligencia Artificial</a></h3>
+                <p class="card-description">
+                  En términos simples, inteligencia artificial (IA) se refiere a sistemas o máquinas que imitan la inteligencia 
+                  humana para realizar tareas y pueden mejorar iterativamente a partir de la información que recopilan. La IA 
+                  se manifiesta de varias formas. 
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="./blog/blog-data-engineer.html">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Junior Flores</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 15 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="./blog/blog-data-science.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">IA</h6>
+                  </div>
+                </div>
+                <h3 class="card-title" ><a href="./blog/blog-data-science.html">La IA en el futuro</a></h3>
+                <p class="card-description">
+                  Hace tiempo que la inteligencia artificial abandonó el espectro de la ciencia ficción para colarse en 
+                  nuestras vidas y, aunque todavía en una fase muy inicial, está llamada a protagonizar una revolución 
+                  equiparable a la que generó Internet. 
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="./blog/blog-data-science.html">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Junior Flores</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 20 min
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Blog Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Envíame un mensaje
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="https://formsubmit.co/8ed640d4253a2b7cb6e62307424ebc59" method="POST">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Tu Email" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center my-3">
+                            <div class="loading"></div>
+                            <div class="error-message"></div>
+                            <div class="sent-message"></div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Enviar mensaje</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Estemos en Contacto
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Para conocer mas sobre mí, por favor escribe todos tus datos aquí. 
+                        Espero que exista una buena sinergia entre nosotros para asi poder contribuir 
+                        con el proyecto que quieres llevar a cabo.
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span> 515 CERCADO DE LIMA, LIMA 02108</li>
+                        <li><span class="bi bi-phone"></span> (+51) 999 999 999</li>
+                        <li><span class="bi bi-envelope"></span> flores.junior.2111@gmail.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://www.facebook.com/zuck/"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href="https://www.instagram.com/microsoft/?hl=en"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://twitter.com/elonmusk"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/junior-flores-melgar"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4507.887471118566!2d-77.03366632439453!3d-12.061306089848163!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spe!4v1668038204859!5m2!1sen!2spe" 
+    width="100%" height="500rem" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <div class="credits">
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
